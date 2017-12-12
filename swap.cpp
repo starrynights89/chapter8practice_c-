@@ -32,8 +32,8 @@ int main()
     int y = 9;
     swap_v(x,y);
     cout << "swap_v(x,y) = " << x << " " << y << endl;
-    //swap_r(x,y);
-    //cout << "swap_r(x,y) = " << x << " " << y << endl;
+    swap_r(x,y);
+    cout << "swap_r(x,y) = " << x << " " << y << endl;
     keep_window_open();
     return 0;
 }
