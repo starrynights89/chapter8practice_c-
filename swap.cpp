@@ -20,3 +20,11 @@ void swap_cr(const int &a, const int &b)
     a = b;
     b = temp; 
 }
+
+int main()
+{
+    int x = 7;
+    int y = 9;
+    swap_v(x,y);
+    
+}
