@@ -36,6 +36,10 @@ int main()
     cout << "swap_r(x,y) = " << x << " " << y << endl;
     //swap_cr(x,y);
     //cout << "swap_cr(x,y) = " << x << " " << y << endl;
+    swap_v(7,9);
+    cout << "swap_v(7,9) = " << x << " " << y << endl;
+    swap_r(7,9);
+    cout << "swap_r(7,9) = " << x << " " << y << endl;
     keep_window_open();
     return 0;
 }
