@@ -26,5 +26,8 @@ int main()
     int x = 7;
     int y = 9;
     swap_v(x,y);
+    cout << "swap_v(x,y) = " << x << " " << y << endl;
+    swap_r(x,y);
+    cout << "swap_r(x,y) = " << x << " " << y << endl;
     
 }
