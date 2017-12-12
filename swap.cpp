@@ -46,6 +46,16 @@ int main()
     const int cy = 9; 
     swap_v(cx, cy);
     cout << "swap_v(cx,cy) = " << cx << " " << cy << endl;
+    //swap_r(cx, cy);
+    //cout << "swap_v(cx,cy) = " << cx << " " << cy << endl;
+    double dx = 7.7;
+    double dy = 9.9; 
+    swap_v(dx, dy);
+    cout << "swap_v(dx,dy) = " << dx << " " << dy << endl;
+    swap_r(dx,dy); 
+    cout << "swap_r(dx,dy) = " << dx << " " << dy << endl;
+    swap_v(7.7,7.9);
+    cout << "swap_v(7.7,7.9) = " << dx << " " << dy << endl;
     keep_window_open();
     return 0;
 }
